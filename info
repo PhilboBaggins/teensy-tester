@@ -1,0 +1,106 @@
+{
+  "uuid": "9db1d8d5ab2da4909d5202b4e456bed7",
+  "path": "Offline/Teensy%20Tester",
+  "name": "Teensy Tester",
+  "content": "",
+  "created_at": "2022-02-03 13:57:53",
+  "updated_at": "2022-02-05 10:03:26",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "92fa6f345d433e44da04df987c7c749d",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "6387eeb073c345b6a704cdaac8c3cba9": 1,
+        "bb009484ef804a24ac5d18c54b249586": 15,
+        "e6111d24602a42a188b48e44b2dc6ef4": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "5001",
+          2,
+          "TEST-TH_BD2.54-P1.39",
+          "J1,J2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C238122",
+            "BOM_Manufacturer": "Keystone",
+            "BOM_Manufacturer Part": "5001",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "fe8a73afa2ae45ce8c4aaa975ecc2ae0",
+            "uuid": "e6111d24602a42a188b48e44b2dc6ef4"
+          }
+        ],
+        [
+          "1k",
+          15,
+          "R0603",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "TEENSYLC",
+          1,
+          "TEENSYLC",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "9ba01757d3ff456f85710d294493ecaa",
+            "uuid": "6387eeb073c345b6a704cdaac8c3cba9"
+          }
+        ]
+      ],
+      "updateTime": 1644015806,
+      "createTime": 1643857224,
+      "histories": [],
+      "created_at": "2022-02-03 14:00:24",
+      "updated_at": "2022-02-05 10:03:26"
+    },
+    {
+      "uuid": "de64b18e8ad65b0c707b589a1852a1ee",
+      "puuid": "9db1d8d5ab2da4909d5202b4e456bed7",
+      "title": "PCB_Teensy Tester",
+      "filename": "PCB_Teensy Tester.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9ba01757d3ff456f85710d294493ecaa": 1,
+        "398691f1f785460098bbe5ee6590333c": 15,
+        "fe8a73afa2ae45ce8c4aaa975ecc2ae0": 2
+      },
+      "BOM": [],
+      "updateTime": 1643877865,
+      "createTime": 1643857452,
+      "histories": [],
+      "created_at": "2022-02-03 14:04:12",
+      "updated_at": "2022-02-03 19:44:25"
+    }
+  ],
+  "sort": [],
+  "title": "Teensy Tester",
+  "foldername": "Teensy Tester",
+  "schfilename": "Teensy Tester.json",
+  "schfilemtime": 1644015806723
+}
