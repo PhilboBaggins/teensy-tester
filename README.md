@@ -3,7 +3,7 @@ Teensy Tester
 
 TODO: Add description
 
-TODO: Add board photo
+![Photo of assembled board](photo.jpg)
 
 Licence
 -------
