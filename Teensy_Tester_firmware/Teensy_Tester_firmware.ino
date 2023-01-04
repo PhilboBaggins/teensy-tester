@@ -1,5 +1,4 @@
 
-
 const int PIN_PAIRS[][2] = {
   {  0,  1 },
   {  2,  3 },
@@ -23,7 +22,7 @@ const size_t NUM_PAIRS = sizeof(PIN_PAIRS) / sizeof(int) / 2;
 bool testIO(int outputPin, int inputPin)
 {
     const int DELAY_MS = 1;
-  
+
     pinMode(outputPin, OUTPUT);
     pinMode(inputPin, INPUT);
     delay(DELAY_MS);
@@ -52,7 +51,7 @@ bool testPair(int pairIdx)
 {
     int pinA = PIN_PAIRS[pairIdx][0];
     int pinB = PIN_PAIRS[pairIdx][1];
-  
+
     Serial.print("Testing pair #");
     Serial.print(pairIdx);
     Serial.print(" ... ");
